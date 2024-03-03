@@ -5,7 +5,7 @@
 An opinionated, supercharged version of the Kirby Plainkit used internally at Love & Kindness for our clients' sites, with preconfigured tooling and plugins.
 
 > [!NOTE]
-> While Kirby Baukasten is open source & used in production as base for my own projects, it's not properly versioned, and I'm not offering support for it. Instead, it should serve as a reference or guide for implementing certain best practices in your own starterkit.
+> While Kirby Baukasten is open source and ready-to-use, it's not properly versioned, and I'm not offering support for it. (Hence issues are disabled) Instead, it should serve as a reference or guide for implementing certain best practices in your own starterkit.
 
 ## Requirements
 
