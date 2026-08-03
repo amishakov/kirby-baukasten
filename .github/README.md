@@ -11,21 +11,23 @@ If you're not interested in all of my frontend opinions, you can use [composerki
 
 ## Requirements
 
-- PHP 8.4+ with composer
-- Node.js 24+ with pnpm
+- [mise](https://mise.jdx.dev/)
 
 ## Usage
 
-1. Install Composer & Node dependencies
+1. Install the project tools and dependencies
 
 ```sh
-composer install && pnpm install
+mise install
+mise run setup
 ```
 
-2. Copy and configure environment configuration file
+This installs PHP 8.5 with Composer, the Kirby CLI, Node.js 24, pnpm 10.28.2, and the project dependencies. It also creates `.env` from `.env.example` if the file does not exist.
+
+2. Configure the environment file
 
 ```sh
-cp .env.example .env
+$EDITOR .env
 ```
 
 3. Create required pages
