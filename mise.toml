@@ -1,7 +1,7 @@
 [tools]
 node = "24"
-php = "8.5"
-pnpm = "10.28.2"
+php = "8.5.9"
+pnpm = "11.20.0"
 
 [tasks.setup]
 description = "Install project dependencies and create the local environment file"
@@ -9,5 +9,5 @@ run = [
 	"composer install",
 	"composer global require getkirby/cli",
 	"pnpm install --frozen-lockfile",
-	"test -f .env || cp .env.example .env",
+	"test -f .env || cp .env.example .env"
 ]

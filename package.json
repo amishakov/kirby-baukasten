@@ -54,11 +54,5 @@
 		"not op_mini all",
 		"not and_uc > 0"
 	],
-	"packageManager": "pnpm@10.28.2",
-	"pnpm": {
-		"onlyBuiltDependencies": [
-			"@parcel/watcher",
-			"esbuild"
-		]
-	}
+	"packageManager": "pnpm@11.20.0"
 }
